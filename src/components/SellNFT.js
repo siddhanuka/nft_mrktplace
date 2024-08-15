@@ -11,6 +11,8 @@ export default function SellNFT () {
     const [message, updateMessage] = useState('');
     const location = useLocation();
 
+    //advance functionality
+
     async function OnChangeFile(e) {
         var file = e.target.files[0];
         try {
